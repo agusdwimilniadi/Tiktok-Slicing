@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.bg-dark,
+.bg-transparent {
+  transition: all 0.3s;
+}
+/* STYLE GENERAL */
+.btn-custom-primary {
+  background-color: #5465ff;
+  color: white;
+}
+.btn-custom-primary:hover {
+  background-color: #3c4ffa;
+  color: white;
+}
+.btn-custom-primary.sm {
+  padding: 10px 28px;
+}
+.btn-custom-outline-primary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.btn-custom-outline-primary:hover {
+  background-color: white;
+  color: #5465ff;
+  border: 2px solid white;
+}
+.btn-custom-outline-primary.sm {
+  padding: 10px 28px;
+}
+.text-subheader {
+  color: #ababab !important;
+}
+h1 {
+  line-height: 70px;
+  font-size: 58px;
+}
+
+/* STYLE GENERAL */
+.nav-link {
+  font-weight: 400 !important;
+}
+.nav-link.active {
+  font-weight: 800 !important;
+}
+
+/* JUMBOTRON */
+
+/* END JUMBOTRON */
+#jumbotron {
+  height: 100vh;
+  background-image: url("/assets/bg-jumbotron-new.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#section-2 {
+  height: 100vh;
+  background-color: pink;
+}
