@@ -2,8 +2,10 @@
 * {
   font-family: "Inter", sans-serif;
 }
+
 body {
   overflow-x: hidden;
+  background-color: #0c0d25;
 }
 .bg-dark,
 .bg-transparent {
@@ -41,6 +43,11 @@ h1 {
   line-height: 70px;
   font-size: 58px;
 }
+@media (max-width: 1199.98px) {
+  .text-header {
+    font-size: 45px !important;
+  }
+}
 
 /* STYLE GENERAL */
 .nav-link {
@@ -62,6 +69,13 @@ h1 {
 }
 
 #section-2 {
-  height: 100vh;
-  background-color: pink;
+  height: 60vh;
+  background-image: url("/assets/bg-section2.png");
+  background-repeat: no-repeat;
+}
+
+#section-3,
+#section-4 {
+  height: 60vh;
+  margin-bottom: 5rem;
 }

@@ -4,6 +4,7 @@ let myNavbar = document.getElementById("myNavbar");
 function onScroll2() {
   // Get scroll value
   const scroll = document.documentElement.scrollTop;
+  console.log(scroll);
 
   // If scroll value is more than 0 - add class
   if (scroll > 100) {
