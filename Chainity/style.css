@@ -79,3 +79,75 @@ h1 {
   height: 60vh;
   margin-bottom: 5rem;
 }
+
+#open-source {
+  height: 60vh;
+  background-image: url("/assets/bg-kotak.png");
+}
+
+/* MARQUEE */
+
+#logoMarqueeSection {
+  max-width: 1920px !important;
+  margin: 0 auto;
+}
+
+.default-content-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  width: 100%;
+  min-height: 100vh;
+}
+
+div.marquee > a > img {
+  height: 120px;
+}
+
+.logoMarqueeSection > div > div {
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 0;
+}
+
+.marquee-wrapper {
+  white-space: nowrap;
+}
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  transform: translate3d(0%, 0, 0);
+  animation-name: marquee;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.marquee a {
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 5.4rem;
+}
+.marqueelogo {
+  filter: grayscale(1);
+}
+.marquee-wrapper:hover .marquee {
+  animation-play-state: paused !important;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0%, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+/* END MARQUE */
