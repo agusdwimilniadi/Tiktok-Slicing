@@ -151,3 +151,17 @@ div.marquee > a > img {
   }
 }
 /* END MARQUE */
+
+#section-join {
+  height: 100vh;
+  background-image: url("/assets/bg-section-end.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+footer {
+  min-height: 50vh;
+  background-image: url("/assets/bg-kotak.png");
+  background-color: #030309;
+}
