@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+  /* background-color: black; */
+  /* border: 1px solid white; */
+  font-family: "Inter", sans-serif;
+}
+.font-primary {
+  font-family: "Space Grotesk", sans-serif !important;
+}
+.fs-99 {
+  font-size: 96px !important;
+}
+@media (max-width: 767.98px) {
+  .fs-99 {
+    font-size: 66px !important;
+  }
+}
+
+.btn-custom-outline-white {
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding: 14px 24px;
+  color: white;
+}
+.btn-custom-outline-white:hover {
+  background-color: white;
+  color: black;
+}
+.text-secondary {
+  color: #979797 !important;
+}
+#jumbotron {
+  height: 100vh;
+  background-image: url("/assets/bg-jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destionation {
+  bottom: -65px;
+}
