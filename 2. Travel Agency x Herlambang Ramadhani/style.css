@@ -29,6 +29,14 @@
 .text-secondary {
   color: #979797 !important;
 }
+#myNavbar.bg-dark {
+  transition: all 0.3s;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+#myNavbar.bg-transparent {
+  transition: all 0.3s;
+}
 #jumbotron {
   height: 100vh;
   background-image: url("/assets/bg-jumbotron.png");
@@ -36,6 +44,10 @@
   background-size: cover;
 }
 
-.destionation {
+.destination {
   bottom: -65px;
+}
+
+#tourist-spot {
+  min-height: 50vh;
 }
