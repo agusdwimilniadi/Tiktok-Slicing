@@ -2,6 +2,7 @@
 * {
   /* background-color: black; */
   /* border: 1px solid white; */
+  /* border: 1px solid red; */
   font-family: "Inter", sans-serif;
 }
 .font-primary {
@@ -15,6 +16,9 @@
     font-size: 66px !important;
   }
 }
+.border-red {
+  border: 3px solid red;
+}
 
 .btn-custom-outline-white {
   border: 1px solid #ffffff;
@@ -25,6 +29,16 @@
 .btn-custom-outline-white:hover {
   background-color: white;
   color: black;
+}
+.btn-custom-outline-white-2 {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 14px 24px;
+  color: black;
+}
+.btn-custom-outline-white-2:hover {
+  background-color: black;
+  color: white;
 }
 .text-secondary {
   color: #979797 !important;
@@ -50,4 +64,25 @@
 
 #tourist-spot {
   min-height: 50vh;
+}
+
+#most-populer {
+  min-height: 60vh;
+  background-color: white;
+}
+
+.rating {
+  background: rgba(19, 15, 38, 0.3);
+  backdrop-filter: blur(10px);
+  padding: 7px;
+  border-radius: 20px;
+  color: white;
+  top: 15px;
+  right: 15px;
+}
+.card-destination img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 40px;
 }
