@@ -86,3 +86,25 @@
   object-fit: cover;
   border-radius: 40px;
 }
+#destination {
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+
+#destination .floating {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50px;
+}
+#destination .floating.first {
+  top: 100px;
+}
+#destination .floating.second {
+  bottom: 80px;
+  left: 40px;
+}
+
+#destination .floating.third {
+  top: 160px;
+  right: 40px;
+}
