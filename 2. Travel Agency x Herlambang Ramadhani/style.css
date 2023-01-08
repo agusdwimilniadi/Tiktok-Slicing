@@ -108,3 +108,14 @@
   top: 160px;
   right: 40px;
 }
+#instagram {
+  min-height: 80vh;
+}
+.img-instagram {
+  border-radius: 30px;
+}
+
+.ig-icon {
+  top: 20px;
+  right: 30px;
+}
