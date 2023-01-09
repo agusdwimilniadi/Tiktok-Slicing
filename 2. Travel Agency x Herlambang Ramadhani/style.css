@@ -119,3 +119,11 @@
   top: 20px;
   right: 30px;
 }
+
+#plan {
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+#footer {
+  min-height: 50vh;
+}

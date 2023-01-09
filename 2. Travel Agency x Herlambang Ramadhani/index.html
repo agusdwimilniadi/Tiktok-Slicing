@@ -20,527 +20,647 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg fixed-top bg-transparent py-5"
-      data-bs-theme="dark"
-      id="myNavbar"
-    >
-      <div class="container">
-        <h1 class="fs-1 font-primary fw-bold" href="#">T.</h1>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse ms-5" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 gap-3 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Destination</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Promo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
-            <div class="dropdown">
-              <span
-                class="bg-transparent text-white dropdown-toggle mx-3"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Yoel
-              </span>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-              <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-                alt="foto-profile"
-                class="img-fluid rounded-pill"
-                style="height: 40px; width: 40px; object-fit: cover"
-              />
-              <span class="mx-3">
-                <i class="fa fa-bell"></i>
-              </span>
-              <span class="mx-3">
-                <i class="fa fa-search"></i>
-              </span>
-            </div>
-          </span>
-        </div>
-      </div>
-    </nav>
-    <section id="jumbotron" class="d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="text-white position-relative">
-              <span class="fw-bold fs-1 font-primary">01/</span>
-              <span class="fw-bold fs-5 font-primary position-absolute"
-                >02</span
-              >
-            </div>
-            <div class="row">
-              <div class="col-lg-7">
-                <h1 class="fw-bold fs-99 text-white font-primary">Mount</h1>
-                <h1
-                  class="fw-bold fs-99 text-white font-primary"
-                  style="margin-top: -40px"
+    <main>
+      <nav
+        class="navbar navbar-expand-lg fixed-top bg-transparent py-5"
+        data-bs-theme="dark"
+        id="myNavbar"
+      >
+        <div class="container">
+          <h1 class="fs-1 font-primary fw-bold" href="#">T.</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 gap-3 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Promo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <div class="dropdown">
+                <span
+                  class="bg-transparent text-white dropdown-toggle mx-3"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  Bromo
-                </h1>
+                  Yoel
+                </span>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+                <img
+                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt="foto-profile"
+                  class="img-fluid rounded-pill"
+                  style="height: 40px; width: 40px; object-fit: cover"
+                />
+                <span class="mx-3">
+                  <i class="fa fa-bell"></i>
+                </span>
+                <span class="mx-3">
+                  <i class="fa fa-search"></i>
+                </span>
               </div>
-              <div class="col-lg-5 text-white">
-                One of the volcanoes that is still active has a distinctive
-                charm in the form of a very wide desert
-              </div>
-            </div>
-            <a href="#" class="btn btn-custom-outline-white mt-3">
-              Book Now <i class="fa fa-chevron-right"></i>
-            </a>
+            </span>
           </div>
-          <div class="col-md-4"></div>
-          <div class="col-md-8">
-            <div
-              class="bg-white destination py-3 px-4 position-relative d-none d-md-block"
-              style="border-radius: 100px"
-            >
+        </div>
+      </nav>
+      <section id="jumbotron" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="text-white position-relative">
+                <span class="fw-bold fs-1 font-primary">01/</span>
+                <span class="fw-bold fs-5 font-primary position-absolute"
+                  >02</span
+                >
+              </div>
               <div class="row">
-                <div class="col-md-5">
-                  <div class="row">
-                    <div class="col-md-6 my-2">
-                      <p class="text-dark text-center fw-bold mb-0">Location</p>
-                      <p class="text-dark text-center text-secondary mb-0">
-                        <img
-                          src="/assets/ic-location.png"
-                          alt=""
-                          class="img-fluid"
-                        />
-                        Where ?
-                      </p>
-                    </div>
-                    <div class="col-md-6 my-2">
-                      <p class="text-dark text-center fw-bold mb-0">Check in</p>
-                      <p class="text-dark text-center text-secondary mb-0">
-                        <img
-                          src="/assets/ic-location.png"
-                          alt=""
-                          class="img-fluid"
-                        />
-                        Add Date
-                      </p>
+                <div class="col-lg-7">
+                  <h1 class="fw-bold fs-99 text-white font-primary">Mount</h1>
+                  <h1
+                    class="fw-bold fs-99 text-white font-primary"
+                    style="margin-top: -40px"
+                  >
+                    Bromo
+                  </h1>
+                </div>
+                <div class="col-lg-5 text-white">
+                  One of the volcanoes that is still active has a distinctive
+                  charm in the form of a very wide desert
+                </div>
+              </div>
+              <a href="#" class="btn btn-custom-outline-white mt-3">
+                Book Now <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-8">
+              <div
+                class="bg-white destination py-3 px-4 position-relative d-none d-md-block"
+                style="border-radius: 100px"
+              >
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="row">
+                      <div class="col-md-6 my-2">
+                        <p class="text-dark text-center fw-bold mb-0">
+                          Location
+                        </p>
+                        <p class="text-dark text-center text-secondary mb-0">
+                          <img
+                            src="/assets/ic-location.png"
+                            alt=""
+                            class="img-fluid"
+                          />
+                          Where ?
+                        </p>
+                      </div>
+                      <div class="col-md-6 my-2">
+                        <p class="text-dark text-center fw-bold mb-0">
+                          Check in
+                        </p>
+                        <p class="text-dark text-center text-secondary mb-0">
+                          <img
+                            src="/assets/ic-location.png"
+                            alt=""
+                            class="img-fluid"
+                          />
+                          Add Date
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-5">
-                  <div class="row">
-                    <div class="col-md-6 my-2">
-                      <p class="text-dark text-center fw-bold mb-0">
-                        Check Out
-                      </p>
-                      <p class="text-dark text-center text-secondary mb-0">
-                        <img
-                          src="/assets/ic-location.png"
-                          alt=""
-                          class="img-fluid"
-                        />
-                        Add Date
-                      </p>
-                    </div>
-                    <div class="col-md-6 my-2">
-                      <p class="text-dark text-center fw-bold mb-0">Guest</p>
-                      <p class="text-dark text-center text-secondary mb-0">
-                        <img
-                          src="/assets/ic-location.png"
-                          alt=""
-                          class="img-fluid"
-                        />
-                        Add Guest
-                      </p>
+                  <div class="col-md-5">
+                    <div class="row">
+                      <div class="col-md-6 my-2">
+                        <p class="text-dark text-center fw-bold mb-0">
+                          Check Out
+                        </p>
+                        <p class="text-dark text-center text-secondary mb-0">
+                          <img
+                            src="/assets/ic-location.png"
+                            alt=""
+                            class="img-fluid"
+                          />
+                          Add Date
+                        </p>
+                      </div>
+                      <div class="col-md-6 my-2">
+                        <p class="text-dark text-center fw-bold mb-0">Guest</p>
+                        <p class="text-dark text-center text-secondary mb-0">
+                          <img
+                            src="/assets/ic-location.png"
+                            alt=""
+                            class="img-fluid"
+                          />
+                          Add Guest
+                        </p>
+                      </div>
                     </div>
                   </div>
+                  <div class="col-md-2 d-flex align-items-center text-center">
+                    <a href="#" class="text-white">
+                      <span class="rounded-pill p-3 bg-dark">
+                        <i class="fa fa-search"></i>
+                      </span>
+                    </a>
+                  </div>
                 </div>
-                <div class="col-md-2 d-flex align-items-center text-center">
-                  <a href="#" class="text-white">
-                    <span class="rounded-pill p-3 bg-dark">
-                      <i class="fa fa-search"></i>
-                    </span>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="tourist-spot" class="d-flex align-items-center">
-      <div class="container my-5">
-        <div class="row">
-          <div class="col-md-7">
-            <div class="row">
-              <div class="col-md-3 col-6 text-center text-md-start">
-                <img
-                  src="/assets/image-story-1.png"
-                  alt="image-1"
-                  class="img-fluid rounded-pill text"
-                />
-                <p class="text-center">
-                  Climbing <br />
-                  Adventures
-                </p>
-              </div>
-              <div class="col-md-3 col-6 text-center text-md-start">
-                <img
-                  src="/assets/image-story-2.png"
-                  alt="image-1"
-                  class="img-fluid rounded-pill"
-                />
-                <p class="text-center">
-                  Underwater <br />
-                  Diving
-                </p>
-              </div>
-              <div class="col-md-3 col-6 text-center text-md-start">
-                <img
-                  src="/assets/image-story-3.png"
-                  alt="image-1"
-                  class="img-fluid rounded-pill"
-                />
-                <p class="text-center">
-                  History <br />
-                  Tour
-                </p>
-              </div>
-              <div class="col-md-3 col-6 text-center text-md-start">
-                <img
-                  src="/assets/image-story-4.png"
-                  alt="image-1"
-                  class="img-fluid rounded-pill"
-                />
-                <p class="text-center">
-                  Relax On <br />
-                  The beach
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5">
-            <h1
-              class="font-primary text-center text-md-start mt-3"
-              style="font-size: 72px"
-            >
-              The best tourist spot
-            </h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="most-populer" class="d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <h1 class="font-primary fw-bold fs-1">
-              Most Popular <br />
-              Destination
-            </h1>
-          </div>
-          <div class="col-md-4">
-            <p class="text-secondary">
-              As natives of Indonesia, we should be proud to live in a country
-              surrounded by thousands of islands with unparalleled beauty. Some
-              of these destinations are already popular all over the world.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 mt-3">
-            <div class="card-destination position-relative">
-              <img
-                src="/assets/destination-1.png"
-                alt="destination-1"
-                class="img-fluid"
-              />
-              <h3 class="my-3 font-primary">Borobudur, Magelang</h3>
-              <p class="mb-0">Rp 760.000 - 3 Day</p>
-              <a href="#" class="btn btn-custom-outline-white-2 mt-3">
-                More Details
-              </a>
-              <span class="rating position-absolute">
-                <i class="fa fa-star"></i> 5.0
-              </span>
-            </div>
-          </div>
-          <div class="col-md-4 mt-3">
-            <div class="card-destination position-relative">
-              <img
-                src="/assets/destination-2.png"
-                alt="destination-1"
-                class="img-fluid"
-              />
-              <h3 class="my-3 font-primary">Borobudur, Magelang</h3>
-              <p class="mb-0">Rp 760.000 - 3 Day</p>
-              <a href="#" class="btn btn-custom-outline-white-2 mt-3">
-                More Details
-              </a>
-              <span class="rating position-absolute">
-                <i class="fa fa-star"></i> 5.0
-              </span>
-            </div>
-          </div>
-          <div class="col-md-4 mt-3">
-            <div class="card-destination position-relative">
-              <img
-                src="/assets/destination-3.png"
-                alt="destination-1"
-                class="img-fluid"
-              />
-              <h3 class="my-3 font-primary">Borobudur, Magelang</h3>
-              <p class="mb-0">Rp 760.000 - 3 Day</p>
-              <a href="#" class="btn btn-custom-outline-white-2 mt-3">
-                More Details
-              </a>
-              <span class="rating position-absolute">
-                <i class="fa fa-star"></i> 5.0
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="destination" class="my-5 d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-center position-relative">
-            <img
-              src="/assets/bg-gili-trawangan.png"
-              alt="gili-trawangan"
-              class="img-fluid"
-              style="height: 410px"
-            />
-            <div class="floating position-absolute first">
-              <div class="row p-2 align-items-center">
-                <div class="col-md-4 text-center">
+      </section>
+      <section id="tourist-spot" class="d-flex align-items-center">
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="row">
+                <div class="col-md-3 col-6 text-center text-md-start">
                   <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-                    alt="people"
-                    class="img-fluid rounded-circle"
-                    style="object-fit: cover; width: 50px; height: 50px"
+                    src="/assets/image-story-1.png"
+                    alt="image-1"
+                    class="img-fluid rounded-pill text"
                   />
+                  <p class="text-center">
+                    Climbing <br />
+                    Adventures
+                  </p>
                 </div>
-                <div class="col-md-8 text-center text-md-start mt-1">
-                  <p class="mb-0 fw-bold fs-6">James Gouse</p>
-                  <p class="mb-0 fs-6">
-                    <i class="fa fa-star text-warning"></i> 5.0
+                <div class="col-md-3 col-6 text-center text-md-start">
+                  <img
+                    src="/assets/image-story-2.png"
+                    alt="image-1"
+                    class="img-fluid rounded-pill"
+                  />
+                  <p class="text-center">
+                    Underwater <br />
+                    Diving
+                  </p>
+                </div>
+                <div class="col-md-3 col-6 text-center text-md-start">
+                  <img
+                    src="/assets/image-story-3.png"
+                    alt="image-1"
+                    class="img-fluid rounded-pill"
+                  />
+                  <p class="text-center">
+                    History <br />
+                    Tour
+                  </p>
+                </div>
+                <div class="col-md-3 col-6 text-center text-md-start">
+                  <img
+                    src="/assets/image-story-4.png"
+                    alt="image-1"
+                    class="img-fluid rounded-pill"
+                  />
+                  <p class="text-center">
+                    Relax On <br />
+                    The beach
                   </p>
                 </div>
               </div>
             </div>
-            <div class="floating position-absolute second">
-              <div class="row p-2 align-items-center">
-                <div class="col-md-4 text-center">
-                  <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-                    alt="people"
-                    class="img-fluid rounded-circle"
-                    style="object-fit: cover; width: 50px; height: 50px"
-                  />
+            <div class="col-md-5">
+              <h1
+                class="font-primary text-center text-md-start mt-3"
+                style="font-size: 72px"
+              >
+                The best tourist spot
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="most-populer" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="font-primary fw-bold fs-1">
+                Most Popular <br />
+                Destination
+              </h1>
+            </div>
+            <div class="col-md-4">
+              <p class="text-secondary">
+                As natives of Indonesia, we should be proud to live in a country
+                surrounded by thousands of islands with unparalleled beauty.
+                Some of these destinations are already popular all over the
+                world.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mt-3">
+              <div class="card-destination position-relative">
+                <img
+                  src="/assets/destination-1.png"
+                  alt="destination-1"
+                  class="img-fluid"
+                />
+                <h3 class="my-3 font-primary">Borobudur, Magelang</h3>
+                <p class="mb-0">Rp 760.000 - 3 Day</p>
+                <a href="#" class="btn btn-custom-outline-white-2 mt-3">
+                  More Details
+                </a>
+                <span class="rating position-absolute">
+                  <i class="fa fa-star"></i> 5.0
+                </span>
+              </div>
+            </div>
+            <div class="col-md-4 mt-3">
+              <div class="card-destination position-relative">
+                <img
+                  src="/assets/destination-2.png"
+                  alt="destination-1"
+                  class="img-fluid"
+                />
+                <h3 class="my-3 font-primary">Borobudur, Magelang</h3>
+                <p class="mb-0">Rp 760.000 - 3 Day</p>
+                <a href="#" class="btn btn-custom-outline-white-2 mt-3">
+                  More Details
+                </a>
+                <span class="rating position-absolute">
+                  <i class="fa fa-star"></i> 5.0
+                </span>
+              </div>
+            </div>
+            <div class="col-md-4 mt-3">
+              <div class="card-destination position-relative">
+                <img
+                  src="/assets/destination-3.png"
+                  alt="destination-1"
+                  class="img-fluid"
+                />
+                <h3 class="my-3 font-primary">Borobudur, Magelang</h3>
+                <p class="mb-0">Rp 760.000 - 3 Day</p>
+                <a href="#" class="btn btn-custom-outline-white-2 mt-3">
+                  More Details
+                </a>
+                <span class="rating position-absolute">
+                  <i class="fa fa-star"></i> 5.0
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="destination" class="my-5 d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center position-relative">
+              <img
+                src="/assets/bg-gili-trawangan.png"
+                alt="gili-trawangan"
+                class="img-fluid"
+                style="height: 410px"
+              />
+              <div class="floating position-absolute first">
+                <div class="row p-2 align-items-center">
+                  <div class="col-md-4 text-center">
+                    <img
+                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                      alt="people"
+                      class="img-fluid rounded-circle"
+                      style="object-fit: cover; width: 50px; height: 50px"
+                    />
+                  </div>
+                  <div class="col-md-8 text-center text-md-start mt-1">
+                    <p class="mb-0 fw-bold fs-6">James Gouse</p>
+                    <p class="mb-0 fs-6">
+                      <i class="fa fa-star text-warning"></i> 5.0
+                    </p>
+                  </div>
                 </div>
-                <div class="col-md-8 text-center text-md-start mt-1">
-                  <p class="mb-0 fw-bold fs-6">James Gouse</p>
-                  <p class="mb-0 fs-6">
-                    <i class="fa fa-star text-warning"></i> 5.0
-                  </p>
+              </div>
+              <div class="floating position-absolute second">
+                <div class="row p-2 align-items-center">
+                  <div class="col-md-4 text-center">
+                    <img
+                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                      alt="people"
+                      class="img-fluid rounded-circle"
+                      style="object-fit: cover; width: 50px; height: 50px"
+                    />
+                  </div>
+                  <div class="col-md-8 text-center text-md-start mt-1">
+                    <p class="mb-0 fw-bold fs-6">James Gouse</p>
+                    <p class="mb-0 fs-6">
+                      <i class="fa fa-star text-warning"></i> 5.0
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="floating position-absolute third">
+                <div class="row p-2 align-items-center">
+                  <div class="col-md-4 text-center">
+                    <img
+                      src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                      alt="people"
+                      class="img-fluid rounded-circle"
+                      style="object-fit: cover; width: 50px; height: 50px"
+                    />
+                  </div>
+                  <div class="col-md-8 text-center text-md-start mt-1">
+                    <p class="mb-0 fw-bold fs-6">James Gouse</p>
+                    <p class="mb-0 fs-6">
+                      <i class="fa fa-star text-warning"></i> 5.0
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="floating position-absolute third">
-              <div class="row p-2 align-items-center">
-                <div class="col-md-4 text-center">
-                  <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80"
-                    alt="people"
-                    class="img-fluid rounded-circle"
-                    style="object-fit: cover; width: 50px; height: 50px"
-                  />
+            <div class="col-md-6">
+              <h1 class="font-primary fw-bold" style="font-size: 60px">
+                Gili <br />
+                Trawangan
+              </h1>
+              <p class="fs-4"><i class="fa fa-map-marker"></i> Lombok</p>
+              <p class="fs-6">
+                For beach lovers, Gili Trawangan is a destination for tourists
+                from all over the world. With the combination of blue skies with
+                a tinge of white clouds, crystal clear sea water framed by white
+                sand makes Gili Trawangan a popular tourist destination for both
+                domestic and foreign tourists.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="instagram">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <h1 class="fs-1 font-primary">
+                Instagram <br />
+                Feed
+              </h1>
+            </div>
+            <div class="col-md-4">
+              <p class="fs-6">
+                Various travel inspirations from all over our place ranged in
+                the instagram feed of the visiting travelers.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mt-3 position-relative">
+              <img
+                src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
+                alt="komodo"
+                class="img-fluid img-instagram"
+                style="height: 200px; width: 100%; object-fit: cover"
+              />
+              <img
+                src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
+                alt="ig"
+                class="img-fluid ig-icon position-absolute"
+                style="height: 20px"
+              />
+            </div>
+            <div class="col-md-3 mt-3 position-relative">
+              <img
+                src="https://www.visa.co.id/dam/VCOM/regional/ap/indonesia/global-elements/marquees/marquee-wonderful-indonesia-640x640.jpg"
+                alt="komodo"
+                class="img-fluid img-instagram"
+                style="height: 200px; width: 100%; object-fit: cover"
+              />
+              <img
+                src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
+                alt="ig"
+                class="img-fluid ig-icon position-absolute"
+                style="height: 20px"
+              />
+            </div>
+            <div class="col-md-3 mt-3 position-relative">
+              <img
+                src="https://www.jojonomic.com/wp-content/uploads/2020/12/15-1024x576.jpg"
+                alt="komodo"
+                class="img-fluid img-instagram"
+                style="height: 200px; width: 100%; object-fit: cover"
+              />
+              <img
+                src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
+                alt="ig"
+                class="img-fluid ig-icon position-absolute"
+                style="height: 20px"
+              />
+            </div>
+            <div class="col-md-3 mt-3 position-relative">
+              <img
+                src="https://ds393qgzrxwzn.cloudfront.net/resize/c500x500/cat1/img/images/0/JDYSqIGaOh.jpg"
+                alt="komodo"
+                class="img-fluid img-instagram"
+                style="height: 200px; width: 100%; object-fit: cover"
+              />
+              <img
+                src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
+                alt="ig"
+                class="img-fluid ig-icon position-absolute"
+                style="height: 20px"
+              />
+            </div>
+            <div class="col-md-3 mt-3 position-relative">
+              <img
+                src="https://ds393qgzrxwzn.cloudfront.net/resize/m600x500/cat1/img/images/0/rlT5mNGCmp.jpg"
+                alt="komodo"
+                class="img-fluid img-instagram"
+                style="height: 200px; width: 100%; object-fit: cover"
+              />
+              <img
+                src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
+                alt="ig"
+                class="img-fluid ig-icon position-absolute"
+                style="height: 20px"
+              />
+            </div>
+            <div class="col-md-3 mt-3 position-relative">
+              <img
+                src="https://media.istockphoto.com/id/1172847194/photo/traveler-standing-at-the-gates-of-pura-lempuyang-temple-aka-gates-of-heaven-bali-indonesia.jpg?b=1&s=170667a&w=0&k=20&c=VC7aXybsJzdb2h_WC01_ZvVt8SALWzss_U4qCZDWWoA="
+                alt="komodo"
+                class="img-fluid img-instagram"
+                style="height: 200px; width: 100%; object-fit: cover"
+              />
+              <img
+                src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
+                alt="ig"
+                class="img-fluid ig-icon position-absolute"
+                style="height: 20px"
+              />
+            </div>
+            <div class="col-md-3 mt-3 position-relative">
+              <img
+                src="https://jadiberita.com/wp-content/uploads/2016/12/Pemandangan-Laut-Raja-Ampat-Yang-Indah.jpg"
+                alt="komodo"
+                class="img-fluid img-instagram"
+                style="height: 200px; width: 100%; object-fit: cover"
+              />
+              <img
+                src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
+                alt="ig"
+                class="img-fluid ig-icon position-absolute"
+                style="height: 20px"
+              />
+            </div>
+            <div class="col-md-3 mt-3 position-relative">
+              <img
+                src="https://dagodreampark.co.id/media/k2/items/cache/be4e4fd1bcb87d92f342f6e3e3e1d9e2_XL.jpg"
+                alt="komodo"
+                class="img-fluid img-instagram"
+                style="height: 200px; width: 100%; object-fit: cover"
+              />
+              <img
+                src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
+                alt="ig"
+                class="img-fluid ig-icon position-absolute"
+                style="height: 20px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="plan">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="font-primary text-center my-5" style="font-size: 50px">
+                Plan your trip <br />
+                with us
+              </h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-md-3 text-center text-md-start">
+              <img
+                src="/assets/ic-travel-suitcase.png"
+                alt=""
+                class="img-fluid"
+              />
+              <p
+                class="fs-3 font-primary fw-bold mt-3"
+                style="line-height: 29px"
+              >
+                Comfortable <br />
+                Vacation
+              </p>
+              <p class="fs-5">
+                We have packed your holiday needs here without you bothering to
+                prepare.
+              </p>
+            </div>
+            <div class="col-6 col-md-3 text-center text-md-start">
+              <img src="/assets/ic-map-location.png" alt="" class="img-fluid" />
+              <p
+                class="fs-3 font-primary fw-bold mt-3"
+                style="line-height: 29px"
+              >
+                Varios <br />
+                Destination
+              </p>
+              <p class="fs-5">
+                Indonesia has an interesting natural and cultural wealth for you
+                to visit.
+              </p>
+            </div>
+            <div class="col-6 col-md-3 text-center text-md-start">
+              <img src="/assets/ic-moneys.png" alt="" class="img-fluid" />
+              <p
+                class="fs-3 font-primary fw-bold mt-3"
+                style="line-height: 29px"
+              >
+                Friendly <br />
+                Price
+              </p>
+              <p class="fs-5">
+                The price you pay is in accordance with the best facilities you
+                can get.
+              </p>
+            </div>
+            <div class="col-6 col-md-3 text-center text-md-start">
+              <img src="/assets/ic-palm.png" alt="" class="img-fluid" />
+              <p
+                class="fs-3 font-primary fw-bold mt-3"
+                style="line-height: 29px"
+              >
+                Memorable <br />
+                Vacation
+              </p>
+              <p class="fs-5">
+                In every tourist destination, our team is ready to capture your
+                best documentation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div class="container my-3">
+          <div class="row">
+            <div class="col-12 my-5 text-center">
+              <h1
+                class="font-primary fw-bold text-center"
+                style="font-size: 60px"
+              >
+                Book your holiday <br />
+                package now!
+              </h1>
+              <a
+                href="#"
+                class="btn btn-outline-dark mt-3 p-3"
+                style="border-radius: 50px"
+              >
+                Book Now <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="/assets/logo-black.png" alt="" class="img-fluid" />
                 </div>
-                <div class="col-md-8 text-center text-md-start mt-1">
-                  <p class="mb-0 fw-bold fs-6">James Gouse</p>
-                  <p class="mb-0 fs-6">
-                    <i class="fa fa-star text-warning"></i> 5.0
-                  </p>
+                <div class="col-md-6 d-flex gap-5 justify-content-end">
+                  <a href="#" class="text-decoration-none text-dark">Home</a>
+                  <a href="#" class="text-decoration-none text-dark"
+                    >Destination</a
+                  >
+                  <a href="#" class="text-decoration-none text-dark">Promo</a>
+                  <a href="#" class="text-decoration-none text-dark">Blog</a>
+                  <a href="#" class="text-decoration-none text-dark">Contact</a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <h1 class="font-primary fw-bold" style="font-size: 60px">
-              Gili <br />
-              Trawangan
-            </h1>
-            <p class="fs-4"><i class="fa fa-map-marker"></i> Lombok</p>
-            <p class="fs-6">
-              For beach lovers, Gili Trawangan is a destination for tourists
-              from all over the world. With the combination of blue skies with a
-              tinge of white clouds, crystal clear sea water framed by white
-              sand makes Gili Trawangan a popular tourist destination for both
-              domestic and foreign tourists.
-            </p>
-          </div>
         </div>
-      </div>
-    </section>
-    <section id="instagram">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <h1 class="fs-1 font-primary">
-              Instagram <br />
-              Feed
-            </h1>
-          </div>
-          <div class="col-md-4">
-            <p class="fs-6">
-              Various travel inspirations from all over our place ranged in the
-              instagram feed of the visiting travelers.
-            </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 mt-3 position-relative">
-            <img
-              src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
-              alt="komodo"
-              class="img-fluid img-instagram"
-              style="height: 200px; width: 100%; object-fit: cover"
-            />
-            <img
-              src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
-              alt="ig"
-              class="img-fluid ig-icon position-absolute"
-              style="height: 20px"
-            />
-          </div>
-          <div class="col-md-3 mt-3 position-relative">
-            <img
-              src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
-              alt="komodo"
-              class="img-fluid img-instagram"
-              style="height: 200px; width: 100%; object-fit: cover"
-            />
-            <img
-              src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
-              alt="ig"
-              class="img-fluid ig-icon position-absolute"
-              style="height: 20px"
-            />
-          </div>
-          <div class="col-md-3 mt-3 position-relative">
-            <img
-              src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
-              alt="komodo"
-              class="img-fluid img-instagram"
-              style="height: 200px; width: 100%; object-fit: cover"
-            />
-            <img
-              src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
-              alt="ig"
-              class="img-fluid ig-icon position-absolute"
-              style="height: 20px"
-            />
-          </div>
-          <div class="col-md-3 mt-3 position-relative">
-            <img
-              src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
-              alt="komodo"
-              class="img-fluid img-instagram"
-              style="height: 200px; width: 100%; object-fit: cover"
-            />
-            <img
-              src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
-              alt="ig"
-              class="img-fluid ig-icon position-absolute"
-              style="height: 20px"
-            />
-          </div>
-          <div class="col-md-3 mt-3 position-relative">
-            <img
-              src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
-              alt="komodo"
-              class="img-fluid img-instagram"
-              style="height: 200px; width: 100%; object-fit: cover"
-            />
-            <img
-              src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
-              alt="ig"
-              class="img-fluid ig-icon position-absolute"
-              style="height: 20px"
-            />
-          </div>
-          <div class="col-md-3 mt-3 position-relative">
-            <img
-              src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
-              alt="komodo"
-              class="img-fluid img-instagram"
-              style="height: 200px; width: 100%; object-fit: cover"
-            />
-            <img
-              src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
-              alt="ig"
-              class="img-fluid ig-icon position-absolute"
-              style="height: 20px"
-            />
-          </div>
-          <div class="col-md-3 mt-3 position-relative">
-            <img
-              src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
-              alt="komodo"
-              class="img-fluid img-instagram"
-              style="height: 200px; width: 100%; object-fit: cover"
-            />
-            <img
-              src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
-              alt="ig"
-              class="img-fluid ig-icon position-absolute"
-              style="height: 20px"
-            />
-          </div>
-          <div class="col-md-3 mt-3 position-relative">
-            <img
-              src="https://media.istockphoto.com/id/676518196/photo/komodo-dragon-is-on-the-ground.jpg?s=612x612&w=0&k=20&c=hZx-vPedfdF0ynrQqpGA8Ds8_RfKn_gHNjkxpaDN6so="
-              alt="komodo"
-              class="img-fluid img-instagram"
-              style="height: 200px; width: 100%; object-fit: cover"
-            />
-            <img
-              src="https://icon-library.com/images/white-instagram-icon-png/white-instagram-icon-png-8.jpg"
-              alt="ig"
-              class="img-fluid ig-icon position-absolute"
-              style="height: 20px"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
