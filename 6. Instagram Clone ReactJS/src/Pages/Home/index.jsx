@@ -9,6 +9,9 @@ import { MdOutlineExplore } from 'react-icons/md';
 import { HiOutlineVideoCamera } from 'react-icons/hi';
 import { BiMessageRoundedAdd } from 'react-icons/bi';
 import { CiSquareMore } from 'react-icons/ci';
+import { ProfileStory } from '../../Components/atoms/ProfileStory';
+import { DATA_USER_IG } from '../../utils/constant';
+import { FeedComponent } from '../../Components/molecules/FeedComponent';
 
 export const Home = () => {
   const dataSidebar = [
@@ -50,7 +53,7 @@ export const Home = () => {
   ];
   return (
     <div className="grid grid-cols-5 h-full">
-      <div className="py-10 px-5 relative ">
+      <div className="py-10 px-5 relative border-r-[0.05px] border-gray-50/30">
         <div className="w-full mb-10">
           <img
             src="https://www.pngkey.com/png/full/28-287308_instagram-logo-text-white.png"
@@ -78,7 +81,24 @@ export const Home = () => {
       </div>
       <div className="col-span-4 overflow-y-scroll">
         <div className="grid grid-cols-3 h-[200vh]">
-          <div className="col-span-2 text-2xl">Feed Instagram</div>
+          <div className="col-span-2 text-2xl py-10 px-16 ">
+            <div className="w-full overflow-x-scroll">
+              <div className="flex flex-row gap-3">
+                {DATA_USER_IG.map((item, index) => {
+                  return (
+                    <ProfileStory
+                      key={index}
+                      text={item.username}
+                      imgLink={item.imgLink}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+            <div>
+              <FeedComponent />
+            </div>
+          </div>
           <div>Profile Kita</div>
         </div>
       </div>
