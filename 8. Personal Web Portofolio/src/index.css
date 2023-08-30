@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.roundedPortofolio {
+  @apply rounded-2xl;
+}
+.bg-greenPortofolio {
+  background-color: #02c39a;
+}
+.bg-yellowPortofolio {
+  background-color: #febf3b;
+}
+.bg-redPortofolio {
+  background-color: #fd6d79;
+}
+
+/* div {
+  border: 1px solid white;
+} */
