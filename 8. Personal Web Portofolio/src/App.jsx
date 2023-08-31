@@ -9,14 +9,6 @@ export default function App() {
       path: '/',
       element: <Home />,
     },
-    {
-      path: '/sql',
-      element: <ConvertSQL />,
-    },
-    {
-      path: '/sql2',
-      element: <ConvertSQL2 />,
-    },
   ]);
   return (
     <>
